@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="formula_text" />
+    <string name="answer" />
+
+    <string name="setting">Setting</string>
+    <string name="mode_selectinon">Mode selection</string>
+    <string name="level_selection">Level selection</string>
+    <string name="correction">Calculation result automatic correction</string>
+
+    <string name="increace">Inflated mode</string>
+    <string name="decrease">Discount mode</string>
+    <string name="weak">Weak</string>
+    <string name="normal">Normal</string>
+    <string name="strong">Strong</string>
+    <string name="ultimate">Ultimate</string>
+    <string name="falseauto">OFF</string>
+    <string name="trueauto">Correct the result that seems to be lie</string>
+
+</resources>

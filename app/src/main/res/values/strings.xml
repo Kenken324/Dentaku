@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="formula_text" />
+    <string name="answer" />
+
+    <string name="setting">設定</string>
+    <string name="mode_selectinon">モードを選択</string>
+    <string name="level_selection">いかさまレベル</string>
+    <string name="correction">計算結果自動修正</string>
+
+    <string name="increace">かさ増しモード</string>
+    <string name="decrease">割り引きモード</string>
+    <string name="weak">よわい</string>
+    <string name="normal">ふつう</string>
+    <string name="strong">つよい</string>
+    <string name="ultimate">アルティメット</string>
+    <string name="falseauto">OFF</string>
+    <string name="trueauto">ばれそうな計算結果を自動で修正します</string>
+</resources>

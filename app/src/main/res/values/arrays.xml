@@ -1,0 +1,39 @@
+<resources>
+    <!-- Reply Preference -->
+
+    <string-array name="mode_entries">
+        <item>@string/increace</item>
+        <item>@string/decrease</item>
+        <item>OFF</item>
+    </string-array>
+
+    <string-array name="mode_value">
+        <item>increace</item>
+        <item>dicreace</item>
+        <item>OFF</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string-array name="reply_entries">
+        <item>OFF</item>
+        <item>@string/weak</item>
+        <item>@string/normal</item>
+        <item>@string/strong</item>
+        <item>@string/ultimate</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>OFF</item>
+        <item>wear</item>
+        <item>normal</item>
+        <item>strong</item>
+        <item>ultimate</item>
+    </string-array>
+
+
+</resources>

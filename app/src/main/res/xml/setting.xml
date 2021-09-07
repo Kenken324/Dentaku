@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/setting">
+        <ListPreference
+            android:defaultValue="increace"
+            android:entries="@array/mode_entries"
+            android:entryValues="@array/mode_value"
+            android:key="mode"
+            android:title="@string/mode_selectinon"
+            app:useSimpleSummaryProvider="true"
+
+            />
+
+        <ListPreference
+            android:defaultValue="OFF"
+            android:entries="@array/reply_entries"
+            android:entryValues="@array/reply_values"
+            android:key="level"
+            android:title="@string/level_selection"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="OnOff"
+            android:title="@string/correction"
+            android:summaryOff="@string/falseauto"
+            android:summaryOn="@string/trueauto" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

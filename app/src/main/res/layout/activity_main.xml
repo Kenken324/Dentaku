@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2C2C"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_marginTop="195dp"
+        android:scaleX="1.1"
+        android:scaleY="1.4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/answer"
+        app:srcCompat="@drawable/back" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="413dp"
+        android:layout_height="339dp"
+        android:layout_marginTop="-20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView2">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/buttonC"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/c" />
+
+            <ImageButton
+                android:id="@+id/buttonX"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/plusminus" />
+
+            <ImageButton
+                android:id="@+id/percent"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/percent" />
+
+            <ImageButton
+                android:id="@+id/divided"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/waru" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/seven" />
+
+            <ImageButton
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/eight" />
+
+            <ImageButton
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/nine" />
+
+            <ImageButton
+                android:id="@+id/times"
+                android:layout_width="103dp"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/kekeru" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/four" />
+
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/five" />
+
+            <ImageButton
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/six" />
+
+            <ImageButton
+                android:id="@+id/minus"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/hiku" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/one" />
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/two" />
+
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/three" />
+
+            <ImageButton
+                android:id="@+id/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/tasu" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/formula"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:text="@string/answer"
+        android:textAlignment="viewEnd"
+        android:textColor="#F2F2F4"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/answer"
+        android:textAlignment="viewEnd"
+        android:textColor="#F2F2F4"
+        android:textSize="50sp"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/formula" />
+
+    <TableLayout
+        android:layout_width="413dp"
+        android:layout_height="91dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/button0"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/zero" />
+
+            <ImageButton
+                android:id="@+id/point"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/point" />
+
+            <ImageButton
+                android:id="@+id/equel"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F0F0F3"
+                android:src="@drawable/wa" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/settingBotton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="#2E2C2C"
+        android:src="@drawable/setting"
+        app:layout_constraintBottom_toBottomOf="@+id/answer"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </FrameLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/Banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-7934103891297145/5500668416"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
